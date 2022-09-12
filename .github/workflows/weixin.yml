@@ -3,7 +3,7 @@ name: weixin
 on: 
   workflow_dispatch:
   schedule:
-  - cron: '0 22 * * *'
+  - cron: '1 0 * * *'
   
 jobs:
   build:
